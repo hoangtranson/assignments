@@ -2,6 +2,8 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "pomodoro-timer": "apps/pomodoro-timer",
+    "pomodoro-timer-e2e": "apps/pomodoro-timer-e2e",
     "react-practices": "apps/react-practices",
     "react-practices-e2e": "apps/react-practices-e2e"
   }

@@ -6,7 +6,8 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "all": "npx nx run-many --target=serve --all --maxParallel=100"
   },
   "private": true,
   "config": {
